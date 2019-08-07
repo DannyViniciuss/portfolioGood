@@ -1,0 +1,363 @@
+/* cookie byte styles */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fafafa;
+}
+
+.lg-button {
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #888;
+	border-radius: 3px;
+	padding: 5px 24px;
+}
+
+.container {
+	max-width: 1090px;
+	margin: 0px auto;
+}
+
+.bx-wrapper {
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+.bx-viewport {
+	width: 100%;
+	position: relative;
+	height: 410px;
+}
+
+.bxslider {
+	width: auto;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul {
+	text-transform: uppercase;
+	font-family: "Montserrat",sans-serif;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar-default {
+	background-color: #644d3e;
+	border: none;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+	margin-left: 31px;
+}
+
+.navbar-header img {
+	float: left;
+	margin: 9px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.bx-wrapper .bx-prev {
+	background: url(../images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	background: url(../images/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	width: 54px;
+	height: 54px;
+}
+
+.bx-wrapper .bx-prev {
+	background: url(../images/controls.png) no-repeat 0 -4px;
+}
+
+.bx-wrapper .bx-next {
+	background: url(../images/controls.png) no-repeat -58px -4px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0px -61px;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -58px -61px;
+}
+
+.bx-wrapper img {
+	width: 100%;
+	height: 410px;
+}
+
+.bx-wrapper .bx-viewport {
+	left: 0px;
+	border: none;
+	box-shadow: none;
+	background-color: inherit;
+}
+
+.slider-text {
+    margin-bottom: 107px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slider-text h1 {
+	margin-top: -6px;
+	font-size: 55px;
+}
+
+.slider-text h2 {
+	font-size: 33px;
+}
+
+.caption1 {
+	bottom: 0px;
+    position: absolute;
+    margin-left: 11px;
+}
+
+.caption1 img {
+	max-width: 150px;
+	height: auto;
+	margin-top: 107px;
+}
+
+.caption1 button {
+	background-color: #4d917b;
+}
+
+.certified {
+	float: right;
+	margin-right: 40px;
+}
+
+.fusion {
+	border: 1px solid #e5e5e5;
+	padding: 4px 12px;
+	float: left;
+	width: 100%;
+	box-shadow: 2px 1px 3px #888888;
+}
+
+.fusion span {
+	margin-top: 5px;
+	float: left;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.fusion button {
+	float: right;
+	background-color: #ffd83b;
+	margin-top: 6px;
+}
+
+.slogan {
+	background-color: #ffa452;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 0px;
+	margin-bottom: 46px;
+	text-shadow: 1px 1px 1px #888;
+}
+
+.main-content img {
+	width: 100%;
+}
+
+.first-content {
+	margin-bottom: 20px;
+}
+
+.home-cookies {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 35px;
+}
+
+.home-cookies h1 {
+	color: #fff;
+	font-size: 25px;
+}
+
+.home-cookies button {
+	background-color: transparent;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 5px 20px;
+}
+
+.second-content {
+	margin-bottom: 60px;
+}
+
+.mango{
+	height: 161px;
+}
+
+.mango-fruitness {
+	border: 1px solid #e5e5e5;
+	padding: 13px 12px;
+	float: left;
+	width: 100%;
+	box-shadow: 2px 1px 3px #888888;
+}
+
+.mango-fruitness span {
+	margin-top: -5px;
+	float: left;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.mango-fruitness button {
+	background-color: #f49948;
+	float: right;
+	margin-top: 1px;
+}
+
+.white-cookies {
+	border: 1px solid #e5e5e5;
+	padding: 12px 9px;
+	float: left;
+	width: 100%;
+	box-shadow: 2px 1px 3px #888888;
+}
+
+.white-cookies span {
+	margin-top: 5px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.white-cookies button {
+	float: right;
+	background-color: rgb(229, 223, 188);
+}
+
+.true-taste {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 29px;
+	margin-left: 30px;
+}
+
+.true-taste h1 {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	margin-bottom: -23px;
+}
+
+.true-taste img {
+	margin-right: 19px;
+	max-width: 160px;
+	height: auto;
+	margin-top: 32px;
+}
+
+footer {
+	background-color: #ebebeb;
+	text-align: center;
+	color: #bbbaba;
+	padding: 46px 0px;
+}
+
+@media (max-width: 991px) {
+	.slider-text {
+		margin-left: 40px;
+		margin-bottom: 0px;
+	}
+
+	.home-cookies {
+		top: -8px;
+		margin-left: -11px;
+	}
+
+	.home-cook {
+		height: 204px;
+	}
+
+	.mango {
+		height: 105px;
+	}
+
+	.mango-fruitness span {
+		font-size: 22px;
+	}
+
+	.white-cookies {
+		padding: 0px 9px;
+	}
+
+	.white-cookies span {
+		font-size: 22px;
+	}
+
+	.white-cookies button {
+		margin: -5px 1px 5px;
+	}
+
+	.true-taste {
+		margin-left: -8px;
+		padding: 12px;
+		top: 6px;
+	}
+
+	.taste {
+		height: 217px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-content img {
+		margin-bottom: 20px;
+	}
+
+	.first-content {
+		margin-bottom: 0px;
+	}
+
+	.second-content {
+		margin-bottom: 0px;
+	}
+}

@@ -1,0 +1,517 @@
+/* Style CSS */
+
+body { 
+	max-width: 2000px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0px auto;
+}
+
+.home {
+	background-color: #2ecc71;
+}
+
+.logo {
+	color: #fff;
+	position: absolute;
+}
+
+.menu {
+	float: right;
+	margin-top: 4px;
+}
+
+.menu ul li {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+.button1 {
+	color: #2ecc71;
+	background-color: #fff;
+	border: none;
+	border-radius: 18px;
+	margin-left: 100px;
+	padding: 6px 31px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.banana {
+	margin: 1% 29%;
+	width: 19.1%;
+}
+
+.big-apple {
+	margin: -36% -8%;
+	width: 18%;
+}
+
+.left-home {
+	color: #f4f4f4;
+	max-width: 670px;
+	padding-top: 0px;
+	float: left;
+}
+
+.app-icon {
+	width: 16.6%;
+}
+
+.left-home h1 {
+	font-size: 64px;
+	margin-bottom: 0px;
+}
+
+.left-home p {
+	font-size: 18px;
+	width: 81%;
+}
+
+.appstore {
+	margin-right: 25px;
+}
+
+.google-play, .appstore {
+	margin-top: 35px;
+	margin-bottom: 24%;
+	width: 19.5%;
+}
+
+.strawberry {
+	margin: -12% 35%;
+	width: 16%;
+}
+
+.iphone5c {
+	margin: 46px -8%;
+	position: absolute;
+	width: 24%;
+}
+
+.apple-small {
+    margin: -23% 97%;
+    width: 10%;
+}
+
+.tomato {
+	margin: -38% 85%;
+	width: 15%;
+}
+
+.features {
+	background-color: #ffffff;
+}
+
+.left-iphone {
+	margin-top: 95px;
+}
+
+.circle {
+	margin-top: 100px;
+	width: 42%;
+}
+
+.iphone {
+	position: absolute;
+	margin-left: -30%;
+	width: 20%;
+}
+
+.sprite {
+	background-image: url('../images/sprite.png');
+	width: 110px;
+	height: 110px;
+	background-position: 113px 157px;
+	margin-left: 417px;
+	margin-top: -310px;
+	position: absolute;
+}
+
+.sprite2 {
+	background-image: url('../images/sprite.png');
+	width: 63px;
+	height: 63px;
+	background-position: -6px 150px;
+	margin-left: 338px;
+	margin-top: -473px;
+	position: absolute;
+}
+
+.sprite3 {
+	background-image: url('../images/sprite.png');
+	width: 63px;
+	height: 63px;
+	background-position: -85px 150px;
+	margin-left: 410px;
+	margin-top: -396px;
+	position: absolute;
+}
+
+.sprite4 {
+	background-image: url('../images/sprite.png');
+	width: 63px;
+	height: 63px;
+	background-position: -6px 233px;
+	margin-left: 412px;
+	margin-top: -168px;
+	position: absolute;
+}
+
+.sprite5 {
+	background-image: url('../images/sprite.png');
+	width: 63px;
+	height: 63px;
+	background-position: -353px 233px;
+	margin-left: 338px;
+	margin-top: -84px;
+	position: absolute;
+}
+
+.left-iphone h1{
+	margin-left: 54%;
+	margin-top: -30%;
+	font-size: 48px;
+	color: #5a5a5a;
+}
+
+.left-iphone span {
+	color: #2ecc71;
+}
+
+.left-iphone p {
+	margin-left: 54%;
+	margin-bottom: 40%;
+	font-size: 18px;
+	color: #5a5a5a;
+	width: 37%;
+}
+
+.simple-diet {
+	background-color: #f9f9f9;
+	height: 146%;
+}
+
+.simple-diet h1 {
+	text-align: center;
+	color: #5a5a5a;
+	font-size: 48px;
+	padding-top: 5%;
+}
+
+.simple-diet span {
+	color: #2ecc71;
+}
+
+.simple-diet p {
+	text-align: center;
+	margin: 0px auto;
+	width: 64%;
+	font-size: 18px;
+	color: #5a5a5a;
+}
+
+.iphones {
+	margin: 3% 11%;
+	width: 45%;
+	position: absolute;
+	z-index: 1;
+}
+
+.yellow-apple-diet {
+	margin-left: -13%;
+	position: absolute;
+	margin-top: 2%;
+	width: 11%;
+}
+
+.banana-diet {
+	float: right;
+	margin-top: 17%;
+	margin-right: -3%;
+	width: 24%;
+}
+
+.apple-diet {
+	margin-left: 2%;
+	float: left;
+	position: absolute;
+	margin-top: 18%;
+	width: 13%;
+}
+
+.strawberry-diet {
+	float: right;
+	margin-right: 12%;
+	margin-top: 18%;
+	width: 7%;
+}
+
+.meal-time {
+	background-color: #ffffff;
+	margin-bottom: 7%;
+}
+
+.group {
+	margin-top: 18%;
+    max-width: 43%;
+}
+
+.group h1 {
+	color: #5a5a5a;
+	font-size: 48px;
+}
+
+.group span {
+	color: #2ecc71;
+}
+
+.group p {
+	width: 36%;
+	color: #5a5a5a;
+	font-size: 18px;
+	width: 82%;
+}
+
+.products {
+	margin-left: 55%;
+	margin-top: -24%;
+}
+
+.product-3 {
+	max-width: 36%;
+	line-height: 0.7;
+	height: 15%;
+	border: 2px solid #eeefee;
+	border-radius: 10px;
+}
+
+.product-3 img {
+	float: left;
+	margin: 5% 7% 0% 6%;
+	width: 21%;
+}
+
+.product-3 h1 {
+	color: #2ecc71;
+	font-size: 16px;
+	margin-top: 4%;
+}
+
+.product-3 p {
+	color: #5a5a5a;
+	font-size: 13px;
+}
+
+.product-3 h2 {
+	color: #2ecc71;
+	font-size: 13px;
+}
+
+.clock h1 {
+	float: right;
+	color: #b4b4b4;
+	margin-top: -13%;
+	margin-right: 7%;
+	font-size: 25px;
+}
+
+.clock h2 {
+	float: right;
+	color: #b4b4b4;
+	margin-top: -6%;
+	margin-right: 7%;
+	font-size: 25px;
+}
+
+.product-4 {
+	max-width: 47%;
+	line-height: 0.7;
+	height: 23%;
+	border: 2px solid #eeefee;
+	border-radius: 10px;
+	margin-left: -6%;
+	margin-top: 3%;
+}
+
+.product-4 img {
+	float: left;
+	margin: 5% 7% 0% 6%;
+	width: 26%;
+}
+
+.product-4 h1 {
+	color: #2ecc71;
+	font-size: 20px;
+	margin-top: 8%;
+}
+
+.product-4 p {
+	color: #5a5a5a;
+	font-size: 16px;
+}
+
+.product-4 h2 {
+	color: #2ecc71;
+	font-size: 16px;
+}
+
+.clock2 h1 {
+	float: right;
+	color: #2ecc71;
+	margin-top: -13%;
+	margin-right: 7%;
+	font-size: 30px;
+}
+
+.clock2 h2 {
+	float: right;
+	color: #b4b4b4;
+	margin-top: -6%;
+	margin-right: 7%;
+	font-size: 25px;
+}
+
+.product-5 {
+	max-width: 36%;
+	line-height: 0.7;
+	height: 15%;
+	border: 2px solid #eeefee;
+	border-radius: 10px;
+	margin-top: 3%;
+}
+
+.product-5 img {
+	float: left;
+	margin: 5% 7% 0% 6%;
+	width: 24%;
+}
+
+.product-5 h1 {
+	color: #2ecc71;
+	font-size: 16px;
+	margin-top: 4%;
+}
+
+.product-5 p {
+	color: #5a5a5a;
+	font-size: 13px;
+}
+
+.product-5 h2 {
+	color: #2ecc71;
+	font-size: 13px;
+}
+
+.clock3 h1 {
+	float: right;
+	color: #2ecc71;
+	margin-top: -13%;
+	margin-right: 7%;
+	font-size: 25px;
+}
+
+.clock3 h2 {
+	float: right;
+	color: #b4b4b4;
+	margin-top: -6%;
+	margin-right: 7%;
+	font-size: 25px;
+}
+
+.products {
+	margin-left: 55%;
+	margin-top: -24%;
+	width: 100%;
+}
+
+.footer {
+	background-color: #2ecc71;
+}
+
+.footer h1 {
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 9%;
+}
+
+.footer p {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	width: 67%;
+	margin: 0 auto;
+}
+
+.button2 {
+	color: #2ecc71;
+	background-color: #fff;
+	border: none;
+	border-radius: 18px;
+	margin-left: 41%;
+	padding: 6px 68px;
+	font-size: 18px;
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+.patato-footer {
+	margin-top: -21%;
+	margin-left: -4%;
+	width: 17%;
+}
+
+.yellow-footer {
+	margin: -15% 16%;
+	width: 9%;
+	float: left;
+}
+
+.strawberry-footer {
+	margin: 2% 19%;
+	width: 6%;
+}
+
+.banana-footer {
+	margin: -29% 76%;
+    width: 16%;
+}
+
+.apple-footer {
+	float: right;
+	width: 20%;
+	margin-top: -20%;
+}

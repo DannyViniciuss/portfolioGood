@@ -1,0 +1,27 @@
+			
+
+					     All News Theme
+
+
+
+	All News Theme is a html css theme with some php elements, a perfect theme for news web sites or for presentation sites.
+
+	The top bar, header, menu and footer are in separate directory called “includes” and they are included in pages with php. This method is good because you can edit only one of thoose 3 files and you will have the top_bar, header, menu or footer updated in all pages. This files are called: top_bar.inc, header.inc, main_menu.inc and footer.inc.
+
+	You will need a php server to run this theme or you can delete the php include_once() function and copy the code from file from includes directory instead and you will not need a php server. 
+
+	Also if you want the top_bar, header, menu or footer to be different in a specific page you can open that page in a text editor and delete the php code and add your custom code or copy and paste the code from one of the files in “includes” directory and modify the code as you need.
+
+	If you need to modify the logo you will need to go in “includes/header.inc” and search for “logo_all” or “logo_news”. If you want to have a image instead of that text you can delete all this code
+
+ “<span class="logo_all">ALL</span><span class="logo_news">News</span>” 
+
+and add this new one:
+
+ “<img src=”images/logo.jpg (or .png or .gif) height=”48” alt=”logo” />” 
+
+and save your image as logo.jpg or logo.png or logo.gif (don't forget to specify in your code the extension of your image).
+
+	Thank you using All News Theme,
+
+	Regards

@@ -1,0 +1,173 @@
+.slider .sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 55.869565%!important;
+}
+
+.slider .ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.slider .ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.slider .sssnext, .slider .sssprev {
+	width: 42px;
+	height: 42px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.slider .sssnext2, .slider .sssprev2 {
+	width: 42px;
+	height: 42px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.slider .sssprev {
+	right: 40px;
+	background-position: -2px;
+	top: 91%;
+}
+
+.slider .sssprev2 {
+	right: 40px;
+	background-position: -2px;
+	top: 91%;
+}
+
+.slider .sssnext {
+	right: -1px;
+	background-position: -60px;
+	top: 91%;
+}
+
+.slider .sssnext2 {
+	right: -1px;
+	background-position: -60px;
+	top: 91%;
+}
+
+.slider .sssprev:hover, .slider .sssnext:hover {
+	cursor: pointer;
+}
+
+.slider .sssprev2:hover, .slider .sssnext2:hover {
+	cursor: pointer;
+}
+
+.footer {
+	width: 920px;
+  	height: 184px;
+  	margin-left: 0px;
+  	margin-top: 52%;
+  	padding-bottom: 100px;
+}
+
+.sss {
+	padding-bottom: 0px;
+  	margin-left: 30px;
+  	background-color: : #fff;
+}
+
+.footer-slider {
+	height: 184px
+}
+
+.footer-slider .ssslide {
+	width: 100%;
+  	height: 184px;
+  	margin: 56px;
+  	padding: 0;
+  	position: absolute;
+  	top: -57px;
+  	left: -57px;
+  	overflow: hidden;
+  	background-color: #fff;
+}
+
+.footer-slider1 .ssslide{
+	width: 100%;
+  	height: 184px;
+  	margin: 56px;
+  	padding: 0;
+  	position: absolute;
+  	top: -57px;
+  	left: -57px;
+  	overflow: hidden;
+  	background-color: #fff;
+  	display: none;
+}
+
+.footer-slider .sssnext, .footer-slider .sssprev {
+	width: 41px;
+	height: 42px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr2.png') no-repeat;
+}
+
+.footer-slider .sssnext2, .footer-slider .sssprev2 {
+	width: 41px;
+	height: 42px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr2.png') no-repeat;
+}
+
+.footer-slider .sssprev {
+	left: 0%;
+	background-position: -2px 77%;
+	top: 184px;
+}
+
+.footer-slider .sssprev2 {
+	left: 0%;
+	background-position: -2px 77%;
+	top: 184px;
+}
+
+.footer-slider .sssnext {
+	left: 4.7%;
+	background-position: -60px 77%;
+	top: 184px;
+}
+
+.footer-slider .sssnext2 {
+	left: 4.7%;
+	background-position: -60px 77%;
+	top: 184px;
+}
+
+.footer-slider .sssprev:hover, .footer-slider .sssnext:hover {
+	cursor: pointer;
+}
+
+.footer-slider .sssprev2:hover, .footer-slider .sssnext2:hover {
+	cursor: pointer;
+}
+

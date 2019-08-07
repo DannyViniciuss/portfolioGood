@@ -1,0 +1,285 @@
+/*responsive css*/
+
+@media only screen and (max-width: 1024px) {
+
+	.wrapper {
+		width: 640px;
+	}
+
+	.content {
+		width: 640px;
+		height: 1966px;
+	}
+
+	.header {
+		width: 640px;
+		height: auto;
+	}
+
+	.top-menu {
+		width: 600px;
+  		height: 47px;
+  		background-color: #53b8c4;
+  		color: #000000;
+  		font-size: 11px;
+  		font-family: arial;
+  		font-weight: bold;
+ 		padding-top: 10px;
+  		position: relative;
+ 		top: 51px;
+  		z-index: 1010;
+ 		left: 0%;
+ 		margin-left: 20px;
+	}
+
+	.top-menu p {
+		padding-right: 224px;
+	}
+
+	.login-input {
+		top: 184px !important;
+  		left: 138px;
+  		position: absolute;
+  		z-index: 6000;
+  		display: none;
+	}
+
+	.button-exit {
+		color: #fff;
+ 		background-color: #53b8c4;
+ 		font-size: 52px;
+ 		line-height: 46px;
+ 		top: 130px;
+ 		right: 0px;
+ 		position: absolute;
+ 		z-index: 6000;
+ 		display: none;
+	}
+
+	.login-shaddow {
+		background-color: black;
+  		z-index: 6000;
+  		width: 640px;
+  		height: 1966px;
+  		position: absolute;
+  		opacity: 0.5;
+  		margin: 0px;
+  		top: 0px;
+  		display: none;
+	}
+
+	.logo {
+		margin-top: -577px;
+	}
+
+	.logo-back {
+		width:249px;
+		height: 57px;
+		margin: 60px 102px; 
+		background-color: #050e13;
+		position: absolute;
+		box-shadow: 0px 4px 23px #888888;
+	}
+
+	.logo p {
+		font-size: 40px;
+		font-family: 'Myriad Pro';
+		color: #53b8c4;
+		padding: 69px 109px;
+		position: relative;
+	}
+
+	.slider {
+		width: 600px;
+		padding-top: 150px;
+		margin-left: 20px;
+	}
+
+	.slider .sssprev {
+		top: 305px !important;
+		padding-right: 518px;
+		height: 41px;
+	}
+
+	.slider .sssnext {
+		top: 305px ! important;
+	}
+
+	.slider .sss {
+		height: 11px !important;
+	}
+
+	.p1 {
+		top: 43%;
+	}
+
+	.slider-plus {
+		top: 73%;
+	}
+
+	.bottom-color {
+		width: 518px;
+		height:41px;
+		float: left;
+		margin-left: 61px;
+		margin-top: 4px;
+	}
+
+	.all-content-wrapper {
+		margin-top: 300px;
+	}
+
+	.content-wrapper1, .content-wrapper3 {
+		width: 450px;
+ 		float: left;
+ 		margin-bottom: 30px;
+ 		margin-left: 20px;
+	}
+
+	.content-wrapper2 {
+		width: 450px;
+ 		float: left;
+ 		margin-bottom: 30px;
+	}
+
+	.content-wrapper4 {
+		width: 450px;
+ 		float: left;
+ 		margin-bottom: 30px;
+	}
+
+	.content-box-right1, .content-box-right2, .content-box-right3, .content-box-right4 {
+		width: 483px;
+  		float: left;
+  		margin-right: 20px;
+	}
+
+	.show-more1, .show-more2, .show-more3, .show-more4 {
+		float: right;
+		margin-right: 20px;
+	}
+
+	.hide-more1, .hide-more2, .hide-more3, .hide-more4 {
+		float: right;
+		margin-right: 20px;
+	}
+
+	.content-links, .content-links3, .content-links5, .content-links7 {
+		padding-right: 60px;
+		margin-left: 50px;
+	}
+
+	.viewmore {
+		margin: 40px auto;
+		left: 43%;
+	}
+
+	.footer {
+		width: 100%;
+  		height: 250px;
+  		margin-left: 20px;
+  		margin-top: -176%;
+  		padding-bottom: 100px;
+  		float: left;
+	}
+
+	.footer-slider {
+		margin-top: 1111px;
+  		width: 600px;
+  		height: 250px;
+  		background-color: :red;
+	}
+
+	.footer-slider .sss {
+  		padding: 0;
+  		position: relative;
+  		overflow: hidden;
+  		width: 600px;
+  		height: 250px;
+  		padding-bottom: 0px !important;
+  		margin: 0 auto;
+	}
+
+	.footer-slider .ssslide {
+  			width: 100%;
+  			height: 250px;
+  			margin: 56px;
+  			padding: 0;
+  			position: absolute;
+  			top: -9px;
+  			left: -57px;
+  			overflow: hidden;
+  			background-color: #fff;
+	}
+
+	.footer-slider .ssslide img {
+		margin-left: 367px;
+  		margin-top: 60px;
+  		position: absolute;
+  		display: block;
+	}
+
+	.footer-slider .sssprev {
+  		left: 505px;
+  		top: 6px;
+  		position: relative;
+	}
+
+	.footer-slider .sssnext {
+ 		left: 558px;
+  		top: -36px;
+  		position: relative;
+	}
+
+	.footer-second-text, .footer-second-text2 {
+		color: #666;
+  		font-size: 12px;
+  		font-family: 'Arial';
+  		position: relative;
+  		margin-right: 273px;
+  		top: 70px;
+  		padding-left: 42px;
+	}
+
+	.footer-first-text, .footer-first-text2 {
+		display: none;
+	}
+
+	.arrow-right {
+		display: none;
+	}
+
+	.arrow-left {
+		margin-top: -26px;
+	}
+
+	.footer .footer-first-text-simple {
+		color: #666;
+  		position: relative;
+  		margin-left: 4px;
+  		font-size: 30px;
+  		font-family: 'Myriad Pro';
+ 		top: 449%;
+ 		float: left;
+	}
+
+	.read-article {
+		display: none;
+	}
+
+	.footer .read-article-small {
+		color: #53b8c4;
+		font-size: 12px;
+		font-family: 'Arial';
+		bottom: -535%;
+  		right: 56px;
+  		float: right;
+  		position: relative;
+  		z-index: 3000;
+	}
+
+}
+
+	
+
+
